@@ -1,0 +1,96 @@
+.titulo{
+    margin:0;
+}
+   
+.subtitulo{
+    margin:0;
+}
+
+.contenedor{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor_producto{
+    font-size: x-large;
+    height: 60vh;
+    max-height: 60vh;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+
+#tabla{
+    max-height: 50%;
+    width: 100%;
+    font-size: larger;
+}
+
+.entrada{
+    font-size: x-large;
+    width: calc(100% - 8px);
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+}
+
+.boton{
+    height: 15dvh;
+    width: 20dvh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: 0px solid black;
+
+}
+
+
+#btn1{
+    background-image: url('../img/btn1.png');
+}
+
+#btn2{
+    background-image: url('../img/btn6.png');
+}
+
+#btn3{
+    background-image: url('../img/btn3.png');
+}
+
+#btn4{
+    background-image: url('../img/btn4.png');
+}
+
+#btn5{
+    background-image: url('../img/btn5.png');
+}
+
+.total{
+    display: flex;
+    border: 2px solid black;
+    height: 5dvw;
+    width: 30%;
+    margin-left: auto;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cantidad{
+    width: 10%;
+}
+
+.feedback{
+
+    font-size: x-large;
+    font-weight: bolder;
+    color:#ff0000;
+    
+
+}
+
+
